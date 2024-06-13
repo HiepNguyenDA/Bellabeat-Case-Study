@@ -1192,6 +1192,7 @@ plt.title('Total Minutes Asleep vs Total Time in Bed (Minutes)')
 plt.show()
 ```
 ![Alt Text](https://github.com/HiepNguyenDA/Bellabeat-Case-Study/blob/main/total%20minutes%20asleep%20vs%20total%20time%20in%20bed%20(minutes).png?raw=true)
+
 The scatter plot of total minutes asleep versus total time in bed exhibits a very strong positive correlation, with the data points closely following the line y=x. This indicates a near-linear relationship between the two variables. The majority of the data points are concentrated between 300 and 550 minutes (5 to 9 hours) for both total minutes asleep and total time in bed.
 
 ```Python 3.0
@@ -1229,6 +1230,7 @@ plt.legend(handles=[line])  # Pass the line object, not the NumPy array
 plt.show()
 ```
 ![Alt Text](https://github.com/HiepNguyenDA/Bellabeat-Case-Study/blob/main/total%20steps%20vs%20calories%20burned.png?raw=true)
+
 The scatter plot exhibits a distinct polynomial curve pattern with 3 degrees of freedom between total steps and calories burned, with most data points falling in the 1,000 to 15,000 step range and 1,000 to 3,000 calories burned range. While the overall trend appears mostly linear, aligning with the expectation of more steps leading to more calories burned, the presence of some outliers likely contributes to the higher degree 3rd order polynomial curve fitting.
 
 ```Python 3.0
@@ -1251,6 +1253,7 @@ plt.title('Total Steps vs Total Minutes Asleep')
 plt.show()
 ```
 ![Alt Text](https://github.com/HiepNguyenDA/Bellabeat-Case-Study/blob/main/total%20steps%20vs%20total%20minutes%20asleep.png?raw=true)
+
 The scatter plot does not show a clear linear relationship between sleep duration and activity levels measured by total steps. However, there is a concentration of data points within the range of approximately 400 to 600 minutes of total sleep and 1,000 to 15,000 total steps, suggesting that a significant portion of users experienced sleep durations and activity levels falling within those particular value ranges.
 
 Now, I want to calculate the daily average steps of each user and categorize them into 4 sections classified by:
@@ -1346,6 +1349,7 @@ ax.set_title('Activity Levels of Users')
 plt.show()
 ```
 ![Alt Text](https://github.com/HiepNguyenDA/Bellabeat-Case-Study/blob/main/activity%20levels%20of%20users.png?raw=true)
+
 ```Python 3.0
 # Define the categories to group
 inactive_categories = ['Sedentary', 'Low Active']
@@ -1367,6 +1371,7 @@ ax.set_title('Physical Activity Levels of IDs')
 plt.show()
 ```
 ![Alt Text](https://github.com/HiepNguyenDA/Bellabeat-Case-Study/blob/main/physical%20activity%20level%20of%20ids.png?raw=true)
+
 The data shows the distribution of 33 users across different activity level categories based on their total step counts:
 
 - 24.2% in the sedentary category (less than 2,500 steps)
