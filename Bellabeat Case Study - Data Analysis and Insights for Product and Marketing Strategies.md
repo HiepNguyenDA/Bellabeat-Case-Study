@@ -1,21 +1,19 @@
 # Bellabeat Case Study - Data Analysis and Insights for Product and Marketing Strategies
 By: Hiep Nguyen
-# Case Study Roadmap - Ask
-## Guiding questions
+## Case Study Roadmap - Ask
+### Guiding questions
 ● What is the problem you are trying to solve?
-
-Analyze smart device usage data to gain insight into how consumers use non-Bellabeat smart devices, so that it can be applied or implemented into their own smart devices
+* Analyze smart device usage data to gain insight into how consumers use non-Bellabeat smart devices, so that it can be applied or implemented into their own smart devices
 
 ● How can your insights drive business decisions?
-
-The insights gained from analyzing non-Bellabeat smart device usage data can drive business decisions in several ways:
+* The insights gained from analyzing non-Bellabeat smart device usage data can drive business decisions in several ways:
 1. Product Optimization: By understanding how consumers are using competing devices, we can identify features, functionalities, and design elements that resonate with users. Implementing these insights into Bellabeat's product roadmap will allow us to optimize our offerings and better meet customer needs and preferences
 2. Competitive Advantage: Applying the trends and best practices observed in the broader smart device market will help Bellabeat stay competitive and innovative. Leveraging these insights to enhance our products will enable us to differentiate our brand and appeal to a wider customer base.
 3. Data-Driven Decision Making: A data-driven approach to product development, based on real user behavior and preferences, will lead to more informed and strategic business decisions. This will increase the likelihood of successful product launches and improved sales performance.
 4. Targeted Marketing: The usage insights can also inform our marketing strategies by identifying the most effective messaging, channels, and value propositions to reach and engage our target customers. Tailoring our marketing efforts based on these insights will drive higher conversion rates and sales.
 	 By implementing the trends and best practice observed in the non-Bellabeat smart device market, we can optimize our products, stay competitive, make data-driven decisions, and ultimately improve sales and market share for Bellabeat.
 
-## Key tasks
+### Key tasks
 1. Identify the business task
 	- The key business task is to analyze smart device usage data to gain insights that can be applied to improve Bellabeat's own smart devices and marketing strategies.
 	- The cofounder and Chief Creative Officer of Bellabeat, has asked the marketing analytics team to:
@@ -32,13 +30,13 @@ The insights gained from analyzing non-Bellabeat smart device usage data can dri
 3. Bellabeat Product:
 	The primary objective of this case study is to analyze fitness data collected from Bellabeat's smart devices, with the aim of identifying potential new growth opportunities for the company. Our analysis will concentrate on the Bellabeat app, which consolidates various health metrics for users, including activity levels, sleep patterns, stress management, menstrual cycle tracking, and mindfulness practices. By leveraging this comprehensive data, the Bellabeat app empowers users to gain deeper insights into their current habits and make more informed decisions to improve their overall well-being. Importantly, the app seamlessly integrates with Bellabeat's suite of smart wellness products, enabling a holistic experience.
 
-## Deliverable
+### Deliverable
 A clear statement of the business task:
 
 Urška Sršen, co-founder and Chief Creative Officer of Bellabeat, has asked the marketing analytics team to analyze smart device usage data to identify trends in how consumers use non-Bellabeat products. The goal is to gain insights that can be applied to improve Bellabeat's own smart devices and marketing strategies. The team will select one Bellabeat product and make high-level recommendations for how the identified trends can inform the company's marketing approach. This analysis aims to uncover opportunities for growth by leveraging data-driven insights about consumer behavior and preferences in the broader smart device market.
 
-# Case Study Roadmap - Prepare
-## Guiding questions
+## Case Study Roadmap - Prepare
+### Guiding questions
 ● Where is your data stored?
 	The dataset is stored in Kaggle and was made available through Mobius
 ● How is the data organized? Is it in long or wide format?
@@ -75,7 +73,7 @@ FROM TABLE_NAME;
 ● Are there any problems with the data?
 	The sample size is too small and there were duplicates.
 
-## Key tasks
+### Key tasks
 1. Download data and store it appropriately.
 	 I created a schema and created tables and loaded all the csv files into their respective tables.
 
@@ -116,12 +114,12 @@ FROM TABLE_NAME;
 - Given these constraints around sample size, demographics, and data currency, our case study will take a more operational approach. Rather than making broad generalizations, we will focus on practical applications and insights that can be directly applied to Bellabeat's business. Our recommendations will be grounded in the available data, while acknowledging the limitations in terms of sample size and recency.
 - By taking an operational approach, we can still extract meaningful insights from the data to inform Bellabeat's marketing strategy, while being transparent about the constraints of the dataset. The goal is to provide actionable recommendations based on the data at hand, while recognizing that further research with a larger, more representative sample would be needed to draw definitive conclusions.
 
-## Deliverable
+### Deliverable
 A description of all data sources used
 (The Table in 2)
 
-# Case Study Roadmap - Process
-## Guiding questions
+## Case Study Roadmap - Process
+### Guiding questions
 ● What tools are you choosing and why?
 	Leveraging the accessibility of Python and SQL, the substantial amount of data, and the capability to generate data visualizations, I will conduct my analysis and present the findings to stakeholders through visually compelling representations.
 
@@ -140,7 +138,7 @@ A description of all data sources used
 ● Have you documented your cleaning process so you can review and share those results?
 	Yes, everything has been documented.
 
-## Key tasks
+### Key tasks
 1. Check the data for errors.
 	- minuteSleep_merged and sleepDay_merged had duplicate entries in their csv files.
 	- weight_log_info dataset has a bunch of blank values in the "Fat" column
@@ -161,7 +159,8 @@ A description of all data sources used
 
 4. Document the cleaning process.
 	Originally, I started off by checking every data in excel to see if I could use pivot tables at first. This was working well for dailyActivity_merged, dailyCalories_merged, dailyIntensities_merged, dailySteps_merged. Then I got to heartrate_seconds_merged. When trying to import the csv file into excel, I got an error telling me the data set is too large for the Excel grid: 
-![[Pasted image 20240512045843.png]]
+
+[![[Pasted image 20240512045843.png]]](https://github.com/HiepNguyenDA/Bellabeat-Case-Study/blob/main/error.png?raw=true)
 This is when I decided I was going to use Python and SQL to my data processing.
 
 #### Creating Schema and Tables in MySQL
@@ -1042,12 +1041,12 @@ limit 10;
 Now that we every table is loaded and cleaned and we got to know more about our data structures, it is time to analyze.
 
 
-## Deliverable
+### Deliverable
 Documentation of any cleaning or manipulation of data
 	See above for all the documentation of cleaning and manipulations of the data
 
-# Case Study Roadmap - Analyze
-## Guiding questions
+## Case Study Roadmap - Analyze
+### Guiding questions
 ● How should you organize your data to perform analysis on it?
 - See which columns are organized across all tables to see which is the most common
 - See if the date columns are the same type across all tables
@@ -1060,7 +1059,7 @@ Documentation of any cleaning or manipulation of data
 ● How will these insights help answer your business questions?
 	These insights provide a better understanding of Bellabeat's user base, their diverse activity levels, sleep patterns, and the relationships between tracked metrics, which can inform product development, marketing strategies, and user engagement initiatives to better cater to different user segments and promote healthy behaviors.
 
-## Key tasks
+### Key tasks
 1. Aggregate your data so it’s useful and accessible.
 	Done when joining the daily_activity and sleep_day tables
 
@@ -1380,7 +1379,7 @@ Additionally, the data is categorized into two broader groups:
 - 51.5% of users classified as "Physically Inactive" (combining sedentary and low active categories)
 - 48.5% of users classified as "Physically Active" (combining somewhat active, active, and highly active categories)
 
-## Deliverable
+### Deliverable
 A summary of your analysis.
 
 The data reveals insights into the relationships between various metrics tracked by Bellabeat's fitness products, as well as the activity levels of their user base. Sleep Analysis:
@@ -1410,8 +1409,8 @@ Interesting Facts:
 - The average sedentary time per user is around 16.5 hours.
 
 This analysis provides insights into the diverse activity levels, sleep patterns, and relationships between various metrics tracked by Bellabeat's products, which can inform product development, marketing strategies, and user engagement initiatives.
-# Case Study Roadmap - Share
-## Guiding questions
+## Case Study Roadmap - Share
+### Guiding questions
 ● Were you able to answer the business questions?
 	Yes, the analysis provides insights that can help answer key business questions around understanding user activity levels, sleep patterns, and relationships between tracked metrics to inform product development and marketing strategies.
 ● What story does your data tell?
@@ -1424,16 +1423,9 @@ This analysis provides insights into the diverse activity levels, sleep patterns
 	 Yes, data visualization is crucial for effectively sharing the findings, as the visualizations (scatter plots, pie charts) clearly illustrate the relationships, distributions, and patterns identified in the analysis.
 ● Is your presentation accessible to your audience?
 	 To ensure accessibility, the presentation should follow best practices such as providing alternative text descriptions for visualizations, ensuring color choices are suitable for individuals with color vision deficiencies, and considering the needs of individuals with disabilities if presenting in person.
-## Key tasks
-1. Determine the best way to share your findings.
-2. Create effective data visualizations.
-3. Present your findings.
-4. Ensure your work is accessible.
-## Deliverable
-Supporting visualizations and key findings
 
-# Case Study Roadmap - Act
-## Guiding questions
+## Case Study Roadmap - Act
+### Guiding questions
 ● What is your final conclusion based on your analysis?
 	 The analysis reveals diverse activity levels, sleep patterns, and relationships between tracked metrics, providing insights into Bellabeat's user base and their behaviors.
 ● How could your team and business apply your insights?
@@ -1442,10 +1434,7 @@ Supporting visualizations and key findings
 	 Potential next steps include further analyzing specific user segments, exploring additional data sources, and developing targeted product features or campaigns based on the identified patterns and relationships.
 ● Is there additional data you could use to expand on your findings?
 	 Additional data sources like user demographics, location data, or qualitative feedback could provide more context and expand on the current findings.
-## Key tasks
-● Create your portfolio.
-● Add your case study.
-## Deliverable
+### Deliverable
 Your top high-level insights based on your analysis
 
 1. Significant portion (51.5%) of users classified as "Physically Inactive," presenting an opportunity to promote and encourage more active lifestyles.
