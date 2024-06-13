@@ -38,7 +38,7 @@ Urška Sršen, co-founder and Chief Creative Officer of Bellabeat, has tasked th
 
 ### Data Source
 
-The dataset used for this analysis is the Fitbit Fitness Tracker Data, which includes data from 33 Fitbit users. The data covers various metrics such as daily activity, steps, heart rate, and sleep monitoring.
+The dataset used for this analysis is the [Fitbit Fitness Tracker Data](https://www.kaggle.com/datasets/arashnic/fitbit), which includes data from 33 Fitbit users. The data covers various metrics such as daily activity, steps, heart rate, and sleep monitoring.
 
 ### Data Preparation and Cleaning
 
