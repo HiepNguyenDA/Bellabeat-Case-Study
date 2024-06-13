@@ -51,7 +51,7 @@ Urška Sršen, co-founder and Chief Creative Officer of Bellabeat, has asked the
 - Given these constraints around sample size, demographics, and data currency, our case study will take a more operational approach. Rather than making broad generalizations, we will focus on practical applications and insights that can be directly applied to Bellabeat's business. Our recommendations will be grounded in the available data, while acknowledging the limitations in terms of sample size and recency.
 - By taking an operational approach, we can still extract meaningful insights from the data to inform Bellabeat's marketing strategy, while being transparent about the constraints of the dataset. The goal is to provide actionable recommendations based on the data at hand, while recognizing that further research with a larger, more representative sample would be needed to draw definitive conclusions.
 ● How are you addressing licensing, privacy, security, and accessibility?
-	The dataset we are working with is open-source, meaning the owner has dedicated it to the public domain by waiving all copyrights and related rights to the fullest extent permitted by law. This allows anyone to freely copy, modify, distribute , and build upon the data, even for commercial purposes, without needing to obtain permission. The open-source licensing encourages collaboration and innovation by making the dataset universally accessible. As long as we adhere to the principles of attribution and non-endorsement, we can confidently utilize this open-source data for our analysis and share our findings.
+	The dataset we are working with is open-source, meaning the owner has dedicated it to the public domain by waiving all copyrights and related rights to the fullest extent permitted by law. This allows anyone to freely copy, modify, distribute, and build upon the data, even for commercial purposes, without needing to obtain permission. The open-source licensing encourages collaboration and innovation by making the dataset universally accessible. As long as we adhere to the principles of attribution and non-endorsement, we can confidently utilize this open-source data for our analysis and share our findings.
 ● How did you verify the data’s integrity?
 - Using:
 ``` MYSQL
@@ -1250,7 +1250,7 @@ plt.title('Total Steps vs Total Minutes Asleep')
 # Show the plot
 plt.show()
 ```
-![Alt Text]([https://github.com/HiepNguyenDA/Bellabeat-Case-Study/blob/main/total%20steps%20vs%20calories%20burned.png?raw=true](https://github.com/HiepNguyenDA/Bellabeat-Case-Study/blob/main/activity%20levels%20of%20users.png?raw=true))
+![Alt Text](https://github.com/HiepNguyenDA/Bellabeat-Case-Study/blob/main/total%20steps%20vs%20total%20minutes%20asleep.png?raw=true)
 The scatter plot does not show a clear linear relationship between sleep duration and activity levels measured by total steps. However, there is a concentration of data points within the range of approximately 400 to 600 minutes of total sleep and 1,000 to 15,000 total steps, suggesting that a significant portion of users experienced sleep durations and activity levels falling within those particular value ranges.
 
 Now, I want to calculate the daily average steps of each user and categorize them into 4 sections classified by:
