@@ -160,7 +160,7 @@ A description of all data sources used
 4. Document the cleaning process.
 	Originally, I started off by checking every data in excel to see if I could use pivot tables at first. This was working well for dailyActivity_merged, dailyCalories_merged, dailyIntensities_merged, dailySteps_merged. Then I got to heartrate_seconds_merged. When trying to import the csv file into excel, I got an error telling me the data set is too large for the Excel grid: 
 
-[![[Pasted image 20240512045843.png]]](https://github.com/HiepNguyenDA/Bellabeat-Case-Study/blob/main/error.png?raw=true)
+![Alt Text](https://github.com/HiepNguyenDA/Bellabeat-Case-Study/blob/main/error.png?raw=true)
 This is when I decided I was going to use Python and SQL to my data processing.
 
 #### Creating Schema and Tables in MySQL
