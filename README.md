@@ -20,8 +20,8 @@ This repository contains the Bellabeat case study, which includes data analysis 
 ## Repository Structure
 
 - [**Bellabeat Case Study - Data Analysis and Insights for Product and Marketing Strategies.md**](https://github.com/HiepNguyenDA/Bellabeat-Case-Study/blob/main/Bellabeat%20Case%20Study%20-%20Data%20Analysis%20and%20Insights%20for%20Product%20and%20Marketing%20Strategies.md): The main markdown file containing the detailed case study.
-- [**Bellabeat Case Study PowerPoint.pptx**](): A PowerPoint presentation summarizing the key findings and recommendations for stakeholders.
-- [**Cleaning Fitbit Data.ipynb**](): A Jupyter notebook used for cleaning and processing the Fitbit data.
+- [**Bellabeat Case Study PowerPoint.pptx**](https://github.com/HiepNguyenDA/Bellabeat-Case-Study/blob/main/Bellabeat%20Case%20Study%20PowerPoint.pptx): A PowerPoint presentation summarizing the key findings and recommendations for stakeholders.
+- [**Cleaning Fitbit Data.ipynb**](https://github.com/HiepNguyenDA/Bellabeat-Case-Study/blob/main/Cleaning%20Fitbit%20Data.ipynb): A Jupyter notebook used for cleaning and processing the Fitbit data.
 
 ## Project Details
 
