@@ -1191,7 +1191,7 @@ plt.title('Total Minutes Asleep vs Total Time in Bed (Minutes)')
 # Show the plot
 plt.show()
 ```
-![Alt Text]([https://github.com/HiepNguyenDA/Bellabeat-Case-Study/blob/main/error.png?raw=true](https://github.com/HiepNguyenDA/Bellabeat-Case-Study/blob/main/total%20minutes%20asleep%20vs%20total%20time%20in%20bed%20(minutes).png?raw=true))
+![Alt Text](https://github.com/HiepNguyenDA/Bellabeat-Case-Study/blob/main/total%20minutes%20asleep%20vs%20total%20time%20in%20bed%20(minutes).png?raw=true)
 The scatter plot of total minutes asleep versus total time in bed exhibits a very strong positive correlation, with the data points closely following the line y=x. This indicates a near-linear relationship between the two variables. The majority of the data points are concentrated between 300 and 550 minutes (5 to 9 hours) for both total minutes asleep and total time in bed.
 
 ```Python 3.0
@@ -1366,7 +1366,7 @@ ax.set_title('Physical Activity Levels of IDs')
 # Show the plot
 plt.show()
 ```
-![Alt Text]([https://github.com/HiepNguyenDA/Bellabeat-Case-Study/blob/main/activity%20levels%20of%20users.png?raw=true](https://github.com/HiepNguyenDA/Bellabeat-Case-Study/blob/main/physical%20activity%20level%20of%20ids.png?raw=true))
+![Alt Text](https://github.com/HiepNguyenDA/Bellabeat-Case-Study/blob/main/physical%20activity%20level%20of%20ids.png?raw=true)
 The data shows the distribution of 33 users across different activity level categories based on their total step counts:
 
 - 24.2% in the sedentary category (less than 2,500 steps)
